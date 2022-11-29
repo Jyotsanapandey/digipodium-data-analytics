@@ -17,6 +17,7 @@ def draw():
     screen.draw.text(f'score: {score}',(10,10), fontsize = 50, color = 'black')
     p.draw()
     c.draw()
+    
 def p_move():  # here our actor is in our control and it do not go outside the screen
     if keyboard.right and p.right< WIDTH:  
         p.x += 20
