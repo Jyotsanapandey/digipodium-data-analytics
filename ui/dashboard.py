@@ -31,6 +31,6 @@ st.write(titanic[selected_col])
 
 
 
-# visualize
-
-# streamlit run ui/dashboard.py             # run this on terminal
+# visualize 
+     
+# streamlit run ui/dashboard.py     # run this on terminal
